@@ -31,7 +31,7 @@ function Footer() {
                 <div className="form-inputs">
                     <input type="text" required placeholder='Su nombre *' />
                     
-                    <input type="email" required placeholder='Su correo electronico *' />
+                    <input type="email" required value={""} placeholder='Su correo electronico *' />
 
                     <textarea name="" id="" placeholder='Su mensaje *' cols="30" rows="10"></textarea>
 
