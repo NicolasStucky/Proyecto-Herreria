@@ -53,7 +53,7 @@ function Contacto() {
                     onChange={(e) => {
                         setNombre(e.target.value)
                         if(nombre.length < 2){
-                            console.log("os")
+                            
                         }
                     }}
                     />
