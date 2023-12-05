@@ -47,7 +47,7 @@ function Contacto() {
                     label="Su nombre" 
                     variant="outlined" 
                     margin='normal'
-                    error=""
+                    error="true"
                     helperText=""
                     value={nombre}
                     onChange={(e) => {
