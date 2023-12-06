@@ -1,6 +1,6 @@
 import React from 'react'
 import "./header.css"
-
+debugger
 function Header() {
   return (
     <div className='header'>

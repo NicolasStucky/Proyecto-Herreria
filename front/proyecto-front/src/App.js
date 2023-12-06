@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './Components/Header/Header';
-import Footer from './Components/Footer/Footer';
+import Contacto from './Components/Contacto/Contacto';
 function App() {
   return (
     <div className="App">
@@ -17,10 +17,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn Reacttt
         </a>
       </header>
-      <Footer/>
+      <Contacto/>
       
     </div>
   );
