@@ -23,7 +23,7 @@ function Contacto() {
             <div className="container_datos-info">
                 <div className="caja-info">
                     <h4>Ubicación</h4>
-                    <span>Lonoche 8383</span>
+                    <span>Loncoche 8383</span>
                 </div>
                 
                 <div className="caja-info">
@@ -53,7 +53,7 @@ function Contacto() {
                     onChange={(e) => {
                         setNombre(e.target.value)
                         if(nombre.length < 2){
-                            
+                            console.log("aa")
                         }
                     }}
                     />
