@@ -1,6 +1,5 @@
 import React from 'react';
 import "./header.css"
-<<<<<<< HEAD
 import iconMenu from "../../assets/menu.png"
 import iconClose from "../../assets/close.png";
 import iconInfo from "../../assets/informacion.png";
@@ -8,9 +7,6 @@ import iconHerrero from "../../assets/herrero.png";
 import iconContacto from "../../assets/contacto.png";
 import iconDown from "../../assets/down.png";
 
-=======
-debugger
->>>>>>> d1fd541733f0d6b4fa0d785b50050a92936ecafc
 function Header() {
   return (
     <nav className='nav'>

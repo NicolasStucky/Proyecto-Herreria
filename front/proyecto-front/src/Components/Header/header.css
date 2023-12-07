@@ -1,19 +1,8 @@
-<<<<<<< HEAD
 .nav {
     background-color: #fff;
 
     --img1: scale(1);
     --img2: scale(0);
-=======
-.header{
-    font-weight: bold;
-    padding: 25px;
-    position: fixed;
-    background-color: #FFF;
-    width: 100%;
-    font-weight: bolder;
-    font-size: 1.2rem;
->>>>>>> d1fd541733f0d6b4fa0d785b50050a92936ecafc
 }
 
 .nav:has( .dropdown:target ) {
