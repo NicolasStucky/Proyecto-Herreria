@@ -1,6 +1,7 @@
 .nav {
     background-color: white;
     box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.2);
+    font-family: var(--font-uno);
 
     --img1: scale(1);
     --img2: scale(0);
