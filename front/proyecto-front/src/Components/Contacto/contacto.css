@@ -66,3 +66,41 @@ padding: 10px 30px;
   
 }
 
+@media (width < 1000 ) {
+    .contacto-title{
+        color: aqua;
+    }
+
+}
+
+@media screen and (min-width:500px) {
+    .container_datos{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    form{
+        width: 50%;
+    }
+
+
+    .contacto-title{
+        font-size: 2.8rem;
+    }
+    .container_datos-info{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+
+    }
+    .input,.textarea{
+        width: 100%;
+    }
+
+    .caja-info{
+        margin-top: 30px;
+    }
+}
+
+
