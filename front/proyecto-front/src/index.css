@@ -6,7 +6,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
 }
 
 /* Variables */
@@ -17,4 +16,6 @@
   --steel-gray: #737b7d ;
   --silver-gray: #90989a;
   --light-gray: #adb5b7;
+  /* Font */
+  --font-uno: 'Poppins', sans-serif;
 }

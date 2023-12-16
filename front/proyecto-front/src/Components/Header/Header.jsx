@@ -1,9 +1,9 @@
 import React from 'react';
 import "./header.css"
 import iconMenu from "../../assets/menu.png"
-import iconClose from "../../assets/close.png";
+import iconClose from "../../assets/cerrar.png";
 import iconInfo from "../../assets/informacion.png";
-import iconHerrero from "../../assets/herrero.png";
+import iconMartillo from "../../assets/martillo.png";
 import iconContacto from "../../assets/contacto.png";
 import iconDown from "../../assets/down.png";
 
@@ -30,7 +30,7 @@ function Header() {
           {/* Sección: ¿Quiénes somos? */}
           <li className='dropdown__list'>
               <a href="#informacion" className='dropdown__link'>
-                <img src={iconInfo} alt="Icono de información"/>
+                <img src={iconInfo} alt="Icono de información" className='icon__list'/>
                 <span className='dropdown__span'>¿Quiénes somos?</span>
               </a>
           </li>
@@ -38,7 +38,7 @@ function Header() {
           {/* Sección: Trabajos */}
           <li className='dropdown__list'>
             <a href="#informacion" className='dropdown__link'>
-              <img src={iconHerrero} alt="Icono de información"/>
+              <img src={iconMartillo} alt="Icono de información" className='icon__list'/>
               <span className='dropdown__span'>Trabajos</span>
               <img src={iconDown} alt="Flecha" className='dropdown__arrow'/>
 
@@ -77,7 +77,7 @@ function Header() {
           {/* Sección: Contacto */}
           <li className='dropdown__list'>
               <a href="#contacto" className='dropdown__link'>
-                <img src={iconContacto} alt="Icono de contacto"/>
+                <img src={iconContacto} alt="Icono de contacto" className='icon__list'/>
                 <span className='dropdown__span'>Contacto</span>
               </a>
           </li>
